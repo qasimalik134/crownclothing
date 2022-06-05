@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:70px;
+    margin-bottom:25px;
+}
+ .logo-container{
+     height:100%;
+     width: 70px;
+     padding:25px;
+ }
+ .options{
+     align-items: center;
+     justify-content: flex-end;
+     height: 100%;
+     width: 50%;
+     display: flex;
+ }
+ .option{
+    padding: 20px 15px;
+}
