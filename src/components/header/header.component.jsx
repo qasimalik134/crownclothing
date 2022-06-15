@@ -18,8 +18,14 @@ const Header = ({ currentUser }) => (
         CONTACT
       </Link>
       {currentUser ? (
-        <div className="option" onClick={() => auth.signOut()}>
-          {" "}
+        <div
+          className="option"
+          onClick={async () => {
+            await auth.signOut().then(()=>{
+         
+            });
+          }}
+        >
           SIGN OUT
         </div>
       ) : (
